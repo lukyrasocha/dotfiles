@@ -2,5 +2,8 @@
 	email = rasocha.lukas@gmail.com
 	name = lukyrasocha
 
+[core]
+	editor = nvim
+
 [init]
 	defaultBranch = main
