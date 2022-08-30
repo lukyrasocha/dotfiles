@@ -23,6 +23,8 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias hpc="ssh lukr@hpc.itu.dk"
 alias amber="ssh lukr@130.226.142.166 -p 8022 -i lukr"
 
+#gcloud cli
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc"
 #Pyenv
 eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
