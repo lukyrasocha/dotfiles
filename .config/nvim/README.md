@@ -39,6 +39,7 @@ I use the following plugins (that are loaded in this [file](https://github.com/j
 - [plenary](https://github.com/nvim-lua/plenary.nvim) because telescope needs it
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) for file fuzzy finding
 - [telescope-filebrowser](https://github.com/nvim-telescope/telescope-file-browser.nvim) for file browsing
+- [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) for a file structure tree
 
 LSP-Settings
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
