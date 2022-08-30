@@ -7,8 +7,8 @@ alias gpl="git pull"
 alias ga="git add"
 alias gm="git commit"
 alias jn="jupyter notebook"
-alias findvim='vim $(fzf --exact --preview "bat --style=numbers --color=always --line-range :500 {}")'
-alias vimconfig='vim ~/.vimrc'
+alias findvim='nvim $(fzf --exact --preview "bat --style=numbers --color=always --line-range :500 {}")'
+alias vimconfig='nvim ~/.vimrc'
 alias hpc="ssh lukr@hpc.itu.dk"
 alias amber="ssh lukr@130.226.142.166 -p 8022 -i lukr"
 alias fm="vifm ."
