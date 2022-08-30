@@ -13,6 +13,9 @@ vim.opt.fileencoding = 'utf-8'
 vim.wo.number = true
 
 -- base styles
+
+vim.opt.termguicolors = true
+vim.cmd([[colorscheme spaceduck]])
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true

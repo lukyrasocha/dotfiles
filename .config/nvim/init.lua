@@ -3,10 +3,6 @@ require('highlights')
 require('maps')
 require('plugins')
 
-require("nvim-tree").setup()
-vim.opt.termguicolors = true
-vim.cmd([[colorscheme spaceduck]])
-
 local has = function(x)
   return vim.fn.has(x) == 1
 end
