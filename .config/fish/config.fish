@@ -42,3 +42,5 @@ export FZF_COMPLETION_OPTS='--border --info=inline' # default layout opts for co
 eval /Users/co2yd4bcjgh6/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
+#Java language server
+export PATH=$PATH:$HOME/.local/bin
