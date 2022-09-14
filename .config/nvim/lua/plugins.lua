@@ -50,4 +50,6 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim' -- fuzzy find
 
   use 'akinsho/nvim-bufferline.lua' -- custom buffer line
+  use 'norcalli/nvim-colorizer.lua' -- show colors
+
 end)

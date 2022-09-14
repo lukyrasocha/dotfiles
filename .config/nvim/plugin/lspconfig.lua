@@ -116,11 +116,6 @@ nvim_lsp.pyright.setup{}
 
 nvim_lsp.clangd.setup{}
 
---nvim_lsp.java_language_server.setup{
---  cmd = {"launch_mac.sh"}
---}
---
---
 nvim_lsp.jdtls.setup{
    cmd = { 'jdtls' },
    root_dir = function(fname)
