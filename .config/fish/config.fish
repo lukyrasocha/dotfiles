@@ -17,7 +17,7 @@ alias jn="jupyter notebook"
 alias findvim='nvim $(fzf --exact --preview "bat --style=numbers --color=always --line-range :500 {}")'
 alias vimconfig='nvim ~/.vimrc'
 alias fm="vifm ."
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME" 
+alias configfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME" 
 
 #connections
 alias hpc="ssh lukr@hpc.itu.dk"
