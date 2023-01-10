@@ -1,0 +1,72 @@
+
+{
+  "python.defaultInterpreterPath": "/Users/co2yd4bcjgh6/.pyenv/versions/3.8.9/bin/python",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["J"],
+        "commands": [":tabp"],
+      //  "after": ["gT"]
+      },
+      {
+        "before": ["K"],
+        "commands": [":tabn"],
+        //"after": ["gt"]
+      },
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      //{
+      //  "before": ["<leader>","t"],
+      //  "commands": ["workbench.view.explorer"]
+      //},
+      //{
+      //  "before": ["K"],
+      //  "commands": ["lineBreakInsert"],
+      //  "silent": true
+     // }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.vimrc.path": "~/.vimrc",
+    "vim.vimrc.enable": true,
+    "editor.fontSize": 13,
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "Menlo, Hack, Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "vscode-icons",
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home",
+        "default": true
+      },
+      {
+        "name": "JavaSE-11",
+        "path": "/usr/local/Cellar/openjdk@11/11.0.14.1/libexec/openjdk.jdk/Contents/Home"
+      }
+    ],
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "vscode_vibrancy.type": "ultra-dark"
+}

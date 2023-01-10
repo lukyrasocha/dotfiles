@@ -1,0 +1,46 @@
+
+// Place your key bindings in this file to override the defaultsauto[]
+[   // Switch between file explorer and editor (only when inside a normal mode) also opens the file explorer if it was closed
+    {
+        "key": "shift+t",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && vim.mode == 'Normal'"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    //Create a new file
+    {
+        "key": "shift+m f",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "d d",
+        "command": "deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "alt+cmd+backspace",
+        "command": "-deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    //Create a new directory
+    {
+        "key": "shift+m d",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    // Toggle between terminal and editor focus
+    {
+        "key":     "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key":     "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
+    } 
+]
