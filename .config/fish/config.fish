@@ -18,6 +18,7 @@ alias findvim='nvim $(fzf --exact --preview "bat --style=numbers --color=always 
 alias vimconfig='nvim ~/.vimrc'
 alias fm="vifm ."
 alias configfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME" 
+alias obs="open -a Obsidian"
 
 #connections
 alias hpc="ssh lukr@hpc.itu.dk"
