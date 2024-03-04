@@ -1,0 +1,30 @@
+[
+  {
+    "context": "Editor && vim_mode == insert && !menu",
+    "bindings": {
+      // put key-bindings here if you want them to work in insert mode
+      // e.g.
+      "k j": "vim::NormalBefore" // remap kj in insert mode to escape.
+    }
+  },
+  {
+    "bindings": {
+      "j": "menu::SelectNext",
+      "k": "menu::SelectPrev"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && vim_operator == none && !VimWaiting",
+    "bindings": {
+      "shift-j": "pane::ActivatePrevItem",
+      "shift-k": "pane::ActivateNextItem",
+      "t t": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "e e": "terminal_panel::ToggleFocus"
+    }
+  }
+]

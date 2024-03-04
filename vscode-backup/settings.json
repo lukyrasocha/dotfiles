@@ -1,5 +1,4 @@
 {
-	"workbench.iconTheme": "vscode-icons",
 	"vim.easymotion": true,
 	"vim.incsearch": true,
 	"vim.useSystemClipboard": true,
@@ -42,8 +41,6 @@
 	"editor.fontSize": 14,
 	"workbench.startupEditor": "none",
 	"editor.fontFamily": "Menlo, Hack, Monaco, 'Courier New', monospace",
-	"vsicons.dontShowNewVersionMessage": true,
-	"python.defaultInterpreterPath": "/Users/lurax/miniconda/envs/comp-ds",
 	"terminal.integrated.inheritEnv": false,
 	"latex-workshop.latex.tools": [
 		{
@@ -114,11 +111,10 @@
 		"editor.defaultFormatter": "ms-python.autopep8",
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
-		"editor.tabSize": 2
+		"editor.tabSize": 4
 	},
 
 	"workbench.colorTheme": "Gamberetti Reborn (Dark)",
-	"editor.tabSize": 2,
 	"editor.inlineSuggest.enabled": true,
 	"editor.minimap.enabled": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -126,14 +122,19 @@
 	"html.format.contentUnformatted": "",
 	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
-	"prettier.tabWidth": 2,
-	"autopep8.args": ["--indent-size=2"],
+	"prettier.tabWidth": 4,
+	"autopep8.args": [
+		"--indent-size=4",
+		"--max-line-length",
+		"120",
+		"--experimental"
+	],
 	"github.copilot.enable": {
 		"*": true,
 		"plaintext": false,
 		"markdown": true,
 		"scminput": false
 	},
-	"nxConsole.showNodeVersionOnStartup": false,
 	"editor.unicodeHighlight.ambiguousCharacters": false
 }
+
