@@ -10,7 +10,8 @@
   {
     "bindings": {
       "j": "menu::SelectNext",
-      "k": "menu::SelectPrev"
+      "k": "menu::SelectPrev",
+      "cmd-e": "project_panel::ToggleFocus"
     }
   },
   {
